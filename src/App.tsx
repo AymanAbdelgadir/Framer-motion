@@ -1,9 +1,8 @@
-import SequentialTransformation from "./Exercises/Basic Transformation/SequentialTransformation.tsx"
+import Button from "./Exercises/Transition/Button";
 const App = () => {
     return (
         <div className=" bg-black h-screen  flex justify-center items-center">
-            <SequentialTransformation />
-
+            <Button />
         </div>
     );
 };
